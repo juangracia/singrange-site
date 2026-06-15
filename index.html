@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <title>SingRange &mdash; Know Your Voice</title>
+  <meta name="description" content="SingRange finds your vocal range in real time, classifies your voice type, and matches you to artists and songs you can sing." />
+  <style>
+    :root {
+      --bg: #0D0C0F;
+      --surface: #1A1816;
+      --text: #F0EDE8;
+      --text-secondary: #8A8580;
+      --coral: #FF6B6B;
+      --teal: #4ECDC4;
+      --border: #2A2725;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; padding: 72px 24px 96px; }
+    .brand {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 14px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: linear-gradient(90deg, var(--coral), var(--teal));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      margin-bottom: 10px;
+    }
+    h1 { font-size: 40px; margin: 0 0 12px; line-height: 1.1; }
+    .tagline { color: var(--text-secondary); font-size: 18px; margin-bottom: 36px; }
+    h2 { font-size: 20px; margin: 40px 0 10px; }
+    p, li { color: var(--text); }
+    ul { padding-left: 22px; }
+    li { margin: 8px 0; }
+    .links { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 36px; }
+    .links a {
+      display: inline-block;
+      padding: 12px 22px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .links a:hover { border-color: var(--teal); }
+    a { color: var(--teal); }
+    footer { margin-top: 56px; color: var(--text-secondary); font-size: 14px; border-top: 1px solid var(--border); padding-top: 20px; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="brand">SingRange</span>
+    <h1>Know Your Voice</h1>
+    <p class="tagline">Find your vocal range in real time, discover your voice type, and see which artists and songs you can actually sing.</p>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>Detects your lowest and highest notes live, using your device's microphone.</li>
+      <li>Classifies your voice type, from bass to soprano.</li>
+      <li>Matches you to artists and songs that sit in your range.</li>
+      <li>Tracks your range over time and lets you share your results.</li>
+    </ul>
+
+    <h2>Private by design</h2>
+    <p>
+      Audio is analyzed live on your device and is never recorded, saved, or sent anywhere.
+      SingRange has no accounts, no ads, and no tracking.
+    </p>
+
+    <div class="links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="support.html">Support</a>
+      <a href="mailto:juanmgracia@gmail.com">Contact</a>
+    </div>
+
+    <footer>
+      &copy; 2026 Juan Gracia. SingRange.
+    </footer>
+  </main>
+</body>
+</html>
