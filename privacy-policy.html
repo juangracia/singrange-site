@@ -59,14 +59,14 @@
   <main class="wrap">
     <span class="brand">SingRange</span>
     <h1>Privacy Policy</h1>
-    <p class="effective">Effective date: July 5, 2026</p>
+    <p class="effective">Effective date: October 7, 2026</p>
 
     <p class="lead">
       SingRange is developed by Juan Gracia. The short version: SingRange has no accounts and never
       records or transmits your voice. The only things that leave your device are anonymous, aggregate
-      usage analytics that help us improve the app and, when you choose to share your result, a small
-      summary of that result used to caption your share card (see below). Neither is ever linked to
-      your identity, sold, or used to track you across other apps or websites.
+      usage analytics that help us improve the app and, when you choose to use them, small summaries of
+      a result used to caption your share card or to suggest artists and songs (see below). None of
+      this is ever linked to your identity, sold, or used to track you across other apps or websites.
     </p>
 
     <h2>Microphone</h2>
@@ -95,8 +95,9 @@
     </ul>
     <p>
       This information is stored only in the app's local storage on your device. It is not uploaded,
-      backed up to our servers, or shared with anyone (when you tap share, a summary of the shared
-      result is sent to generate a caption, as described below). Deleting the app removes this data.
+      backed up to our servers, or shared with anyone (when you tap share, or turn on AI artist and
+      song suggestions, a summary of a result is sent as described below). Deleting the app removes
+      this data.
     </p>
 
     <h2>Anonymous usage analytics</h2>
@@ -132,6 +133,24 @@
         cached by voice type and range, never per person.</li>
       <li>If you are offline or the service is unavailable, the app uses one of its built-in captions
         instead and nothing is sent. Sharing always works without the service.</li>
+    </ul>
+
+    <h2>AI artist and song suggestions</h2>
+    <p>
+      The results screen can suggest artists and songs that fit your voice. This is off until you
+      tap "Find my artists and songs", and that tap is your permission. After it, the app asks for
+      suggestions when you view a result. To do this, the app sends only your voice type, your
+      lowest and highest notes, whether you chose male or female singers in settings, and your app
+      language.
+    </p>
+    <ul>
+      <li>The summary contains no audio, no name or contact details, and no identifier that links it
+        to you.</li>
+      <li>It is processed transiently to generate the suggestions (via our Cloudflare service and
+        Anthropic's Claude API) and is not used to build a profile of you. Suggestions may be cached
+        by range, voice type and language, never per person.</li>
+      <li>If you are offline or the service is unavailable, the app shows suggestions from its
+        built-in catalog instead and nothing is sent.</li>
     </ul>
 
     <h2>Information we do not collect</h2>
